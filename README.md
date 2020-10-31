@@ -30,3 +30,7 @@ export default {
 ```
 
 :warning: If you are using Nuxt **< v2.9** you have to install the module as a `dependency` (No `--save-dev` or `--dev` flags) and use `modules` section in `nuxt.config.js` instead of `buildModules`.
+
+## Inspiration
+
+- [nuxt-vitals](https://github.com/daliborgogic/nuxt-vitals)
