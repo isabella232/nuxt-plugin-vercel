@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-plugin-vercel",
+  "version": "1.0.0",
+  "description": "Track Core Web Vitals in Nuxt projects with Vercel Analytics.",
+  "keywords": [
+    "nuxt",
+    "web vitals",
+    "vercel",
+    "cls",
+    "fcp",
+    "fid",
+    "lcp",
+    "ttfb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/nuxt-plugin-vercel.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vercel/nuxt-plugin-vercel/issues"
+  },
+  "homepage": "https://github.com/vercel/nuxt-plugin-vercel#readme",
+  "main": "module.js",
+  "files": [
+    "module.js",
+    "plugin.js"
+  ],
+  "dependencies": {
+    "web-vitals": "0.2.4"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": false,
+    "trailingComma": "none"
+  }
+}
