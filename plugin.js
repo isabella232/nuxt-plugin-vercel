@@ -25,7 +25,6 @@ function sendToAnalytics(fullPath, metric) {
   const debug = parseInt('<%= options.debug %>')
   if (debug === 1) {
     onDebug(metric.name, JSON.stringify(body, null, 2))
-    return
   }
 
   const blob = new Blob([new URLSearchParams(body).toString()], {
